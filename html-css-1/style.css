@@ -1,0 +1,90 @@
+
+
+.nav-bar {
+    background-color: gray;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+h1, h2 {
+    color: white;
+    position: relative;
+    margin-left: 20px;
+
+}
+.options {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+    position: relative;
+    left: 400px;
+}
+
+.black-box {
+    background-color: black;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    top: 50px;
+}
+h3 {
+    color: yellow;
+    font-weight: 600;
+    font-size: 4rem;
+    text-align: center;
+    top: 100px;
+}
+.middle-box {
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    display: inline-block;
+}
+.green {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.box1, .box2, .box3 {
+    position: relative;
+    border-radius: 25px;
+    background-color: greenyellow;
+    height: 200px;
+    width: 200px;
+    top: 50px;
+}
+.orange {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.box4, .box5 {
+    position: relative;
+    background-color:orange;
+    height: 300px;
+    width: 500px;
+    top: 150px;
+}
+.elephant {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.text, .image {
+    position: relative;
+    background-color: white;
+    height: 200px;
+    width: 400px;
+    top: 300px;
+}
+.bottom-box {
+    position: relative;
+    background-color: slategrey;
+    height: 100px;
+    width: 100%;
+    top: 600px;
+}
